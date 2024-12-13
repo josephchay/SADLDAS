@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "saldas"
+version = "0.1"
+description = "Stable Adaptive Discrepancy Action Selection (SALDAS)"
+readme = "README.md"
+authors = [{name = "Joseph Chay", email = "josephemmanuelchay@gmail.com"}]
+requires-python = ">=3.12.7"
+dependencies = [
+    "numpy~=1.26.4",
+    "dowel~=0.0.4",
+    "torch~=2.5.1",
+    "gymnasium~=1.0.0",
+    "gymnasium[classic-control]~=1.0.0",
+    "gymnasium[box2d]~=1.0.0",
+    "matplotlib~=3.9.2",
+    "seaborn~=0.13.2"
+]
+
+[project.scripts]
+train = "src.train:main"
+tune = "src.tune:main"
+evaluate = "src.evaluate:main"

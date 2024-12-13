@@ -1,0 +1,11 @@
+.idea/
+
+__pycache__/
+
+saldas.egg-info/
+
+logs/
+SALDAS_standalone_eval_logs/
+tuning_results/
+tuning_storage/
+temp/

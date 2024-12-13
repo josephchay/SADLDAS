@@ -198,6 +198,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Sample Results
 
-Go to `src/results` directory to view multiple sample rendering results outcome from successful training of our agent!
+Go to `results` directory to view multiple sample rendering results outcome from successful training of our agent!
 
 Regarding Humanoid, future enhancements can be integrated to make it even better!
